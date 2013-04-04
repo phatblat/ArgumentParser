@@ -209,7 +209,7 @@
 		DAA595021561A4B80063A5B4 /* SignatureFormatConstructionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureFormatConstructionTests.m; sourceTree = "<group>"; };
 		DAA595051561B3610063A5B4 /* FSArgumentParser.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = FSArgumentParser.podspec; path = ../FSArgumentParser.podspec; sourceTree = "<group>"; };
 		DAA595061561B3610063A5B4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		DACF2EC414FD3B2F0097C754 /* example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = example; path = desc; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACF2EC414FD3B2F0097C754 /* desc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = desc; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACF2EC814FD3B2F0097C754 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DACF2ECB14FD3B2F0097C754 /* desc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = desc.m; sourceTree = "<group>"; };
 		DACF2ECE14FD3B2F0097C754 /* example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "example-Prefix.pch"; sourceTree = "<group>"; };
@@ -416,7 +416,7 @@
 		DACF2EC514FD3B2F0097C754 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DACF2EC414FD3B2F0097C754 /* example */,
+				DACF2EC414FD3B2F0097C754 /* desc */,
 				DACF2EDF14FD3B630097C754 /* long-desc */,
 				DACF2EF214FD3B7A0097C754 /* spiffy */,
 				DACF2F1414FD75AC0097C754 /* chocolat-app-example */,
@@ -542,7 +542,7 @@
 			);
 			name = desc;
 			productName = example;
-			productReference = DACF2EC414FD3B2F0097C754 /* example */;
+			productReference = DACF2EC414FD3B2F0097C754 /* desc */;
 			productType = "com.apple.product-type.tool";
 		};
 		DACF2EDE14FD3B630097C754 /* long-desc */ = {
