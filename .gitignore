@@ -5,3 +5,5 @@ bin
 *.swp
 ArgumentParser.xcworkspace
 Pods
+xcuserdata
+project.xcworkspace
