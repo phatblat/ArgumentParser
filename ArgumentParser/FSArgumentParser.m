@@ -128,6 +128,8 @@
         [indexSetOfValues enumerateIndexesUsingBlock:^(NSUInteger idx, BOOL *stop) {
             // grab that value
             NSString * value = [_arguments objectAtIndex:idx];
+            // Make sure the arg is marked as a value type
+            [_arguments setValue:__fsargs_value ofAttribute:__fsargs_typeKey forObjectAtIndex:idx];
             [_arguments setBooleanValue:true ofAttribute:__fsargs_isValueCaptured forObjectAtIndex:idx];
             [_package addObject:value toSignature:valuedSignature];
         }];
